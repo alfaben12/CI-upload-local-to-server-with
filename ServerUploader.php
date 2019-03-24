@@ -10,9 +10,9 @@ class ServerUploader{
     function ServerUpload($param = array()){
         $this->CI->load->library('ftp');
 
-		$config['hostname'] = '52.163.205.84';
-		$config['username'] = 'reseller';
-		$config['password'] = 'e447d709ef43d9a80e8300332c4dcae4';
+		$config['hostname'] = '52.163.***.**';
+		$config['username'] = 'root';
+		$config['password'] = 'toor';
 		$config['debug'] = TRUE;
 
 		$this->CI->ftp->connect($config);
